@@ -1,0 +1,46 @@
+*{
+  margin: 0 px;
+  border:0 px
+}
+.continer{
+    display:grid;
+    place-items: center;
+    margin:5% 22%;
+    width:45%;
+    background-color: black;
+    padding:80px;
+    color:white;
+}
+.start-button{
+    border:none;
+    width:100px;
+    height:40px;
+    font-size:medium
+}
+.question{
+    margin:0;
+}
+.next-btn{
+    background-color: white;
+    color:black;
+    border: none;
+    width:100px;
+    height: 40px;
+    margin-left:10px
+}
+.titleQuiz{
+    text-align: left;
+}
+.ansqu{
+    display:flex;
+    flex-direction: row;
+    margin:10px
+}
+.restart{
+    background-color: white;
+    color:black;
+    width:80px;
+    border:none;
+    outline:none;
+    height: 30px;
+}
